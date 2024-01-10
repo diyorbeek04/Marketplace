@@ -1,0 +1,142 @@
+#category{
+    width: 100%;
+    background-color: #2B2B2B;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    .container{
+        .category{
+            width: 100%;
+            h1{
+                width: 100%;
+                color: #FFF;
+                font-family: "Work Sans 600";
+                font-size: 38px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 120%; /* 45.6px */
+                text-transform: capitalize;
+            }
+            .cards{
+                padding-top: 60px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                .card{
+                    width: 22%;
+                    border-radius: 20px;
+                    background-color: #3B3B3B;
+                    margin-bottom: 20px;
+                    .card__img{
+                        width: 100%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .card__text{
+                        width: 100%;
+                        padding: 20px 30px;
+                        p{
+                            color: #FFF;
+                            font-family: "Work Sans 600";
+                            font-size: 22px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 140%; 
+                            text-transform: capitalize;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 992px) {
+        .container{
+            .category{
+                width: 100%;
+                h1{
+                    
+                }
+                .cards{
+                    padding-top: 60px;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    .card{
+                        width: 45%;
+                        border-radius: 20px;
+                        background-color: #3B3B3B;
+                        margin-bottom: 20px;
+                        .card__img{
+                            width: 100%;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        .card__text{
+                            width: 100%;
+                            padding: 20px 30px;
+                            p{
+                                color: #FFF;
+                                font-family: "Work Sans 600";
+                                font-size: 22px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 140%; 
+                                text-transform: capitalize;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 466px) {
+        .container{
+            .category{
+                width: 100%;
+                h1{
+                    
+                }
+                .cards{
+                    width: 80%;
+                    margin: 0px auto;
+                    padding-top: 60px;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    .card{
+                        width: 100%;
+                        border-radius: 20px;
+                        background-color: #3B3B3B;
+                        margin-bottom: 20px;
+                        .card__img{
+                            width: 100%;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        .card__text{
+                            width: 100%;
+                            padding: 20px 30px;
+                            p{
+                                color: #FFF;
+                                font-family: "Work Sans 600";
+                                font-size: 22px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 140%; 
+                                text-transform: capitalize;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

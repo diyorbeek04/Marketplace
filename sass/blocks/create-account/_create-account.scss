@@ -1,0 +1,386 @@
+#create{
+    width: 100%;
+    background-color: #2B2B2B;
+    padding: 10px 0 80px 0;
+    .container-fluid{
+        .create{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .image{
+                width: 40%;
+                img{
+                    width: 100%;
+                }
+                .mobile{
+                    display: none;
+                }
+            }
+            .form{
+                width: 55%;
+                h1{
+                    color: #FFF;
+                    font-family: "Work Sans 600";
+                    font-size: 51px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 110%; /* 56.1px */
+                    text-transform: capitalize;
+                }
+                p{
+                    width: 70%;
+                    color: #FFF;
+                    font-family: "Work Sans 400";
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 160%; /* 35.2px */
+                    text-transform: capitalize;
+                }
+                .form__group{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    input{
+                        width: 60%;
+                        padding: 10px;
+                        border-radius: 20px;
+                        border: none;
+                        outline: none;
+                        color: var(--Background, #2B2B2B);
+                        font-family: "Work Sans 400";
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 140%; /* 22.4px */
+                    }
+                    button{
+                        width: 60%;
+                        border: none;
+                        outline: none;
+                        cursor: pointer;
+                        border-radius: 20px;
+                        background: #A259FF;
+                        padding: 15px 50px;
+                        color: #FFF;
+                        text-align: center;
+                        font-family: "Work Sans 600";
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 140%;
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 992px) {
+        .container-fluid{
+            .create{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .image{
+                    width: 40%;
+                    img{
+                        width: 100%;
+                    }
+                    .mobile{
+                        display: none;
+                    }
+                }
+                .form{
+                    width: 55%;
+                    h1{
+                        color: #FFF;
+                        font-family: "Work Sans 600";
+                        font-size: 30px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 110%; /* 56.1px */
+                        text-transform: capitalize;
+                    }
+                    p{
+                        width: 70%;
+                        color: #FFF;
+                        font-family: "Work Sans 400";
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 160%; /* 35.2px */
+                        text-transform: capitalize;
+                    }
+                    .form__group{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 15px;
+                        input{
+                            width: 60%;
+                            padding: 8px;
+                            border-radius: 20px;
+                            border: none;
+                            outline: none;
+                            color: var(--Background, #2B2B2B);
+                            font-family: "Work Sans 400";
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 140%; /* 22.4px */
+                        }
+                        button{
+                            width: 60%;
+                            border: none;
+                            outline: none;
+                            cursor: pointer;
+                            border-radius: 20px;
+                            background: #A259FF;
+                            padding: 8px;
+                            color: #FFF;
+                            text-align: center;
+                            font-family: "Work Sans 600";
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 140%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 800px) {
+        .container-fluid{
+            .create{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .image{
+                    width: 48%;
+                    img{
+                        width: 100%;
+                    }
+                    .mobile{
+                        display: none;
+                    }
+                }
+                .form{
+                    width: 50%;
+                    h1{
+                        color: #FFF;
+                        font-family: "Work Sans 600";
+                        font-size: 30px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 110%; /* 56.1px */
+                        text-transform: capitalize;
+                    }
+                    p{
+                        width: 90%;
+                        color: #FFF;
+                        font-family: "Work Sans 400";
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 160%; /* 35.2px */
+                        text-transform: capitalize;
+                    }
+                    .form__group{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 15px;
+                        input{
+                            width: 80%;
+                            padding: 8px;
+                            border-radius: 20px;
+                            border: none;
+                            outline: none;
+                            color: var(--Background, #2B2B2B);
+                            font-family: "Work Sans 400";
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 140%; /* 22.4px */
+                        }
+                        button{
+                            width: 80%;
+                            border: none;
+                            outline: none;
+                            cursor: pointer;
+                            border-radius: 20px;
+                            background: #A259FF;
+                            padding: 8px;
+                            color: #FFF;
+                            text-align: center;
+                            font-family: "Work Sans 600";
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 140%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 677px) {
+        .container-fluid{
+            .create{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .image{
+                    width: 48%;
+                    img{
+                        width: 100%;
+                    }
+                    .mobile{
+                        display: none;
+                    }
+                }
+                .form{
+                    width: 50%;
+                    h1{
+                        color: #FFF;
+                        font-family: "Work Sans 600";
+                        font-size: 25px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 110%; /* 56.1px */
+                        text-transform: capitalize;
+                    }
+                    p{
+                        width: 90%;
+                        color: #FFF;
+                        font-family: "Work Sans 400";
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 160%; /* 35.2px */
+                        text-transform: capitalize;
+                    }
+                    .form__group{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 15px;
+                        input{
+                            width: 80%;
+                            padding: 8px;
+                            border-radius: 20px;
+                            border: none;
+                            outline: none;
+                            color: var(--Background, #2B2B2B);
+                            font-family: "Work Sans 400";
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 140%; /* 22.4px */
+                        }
+                        button{
+                            width: 80%;
+                            border: none;
+                            outline: none;
+                            cursor: pointer;
+                            border-radius: 20px;
+                            background: #A259FF;
+                            padding: 8px;
+                            color: #FFF;
+                            text-align: center;
+                            font-family: "Work Sans 600";
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 140%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 638px) {
+        .container-fluid{
+            .create{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: column;
+                .image{
+                    width: 90%;
+                    margin: 10px auto;
+                    img{
+                        width: 100%;
+                    }
+                    .mobile{
+                        display: block;
+                        width: 100%;
+                    }
+                    .desktop{
+                        display: none;
+                    }
+                }
+                .form{
+                    width: 90%;
+                    h1{
+                        color: #FFF;
+                        font-family: "Work Sans 600";
+                        font-size: 25px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 110%; /* 56.1px */
+                        text-transform: capitalize;
+                        text-align: center;
+                    }
+                    p{
+                        width: 100%;
+                        color: #FFF;
+                        font-family: "Work Sans 400";
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 160%; /* 35.2px */
+                        text-transform: capitalize;
+                        text-align: center;
+                    }
+                    .form__group{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 15px;
+                        input{
+                            width: 100%;
+                            padding: 8px;
+                            border-radius: 20px;
+                            border: none;
+                            outline: none;
+                            color: var(--Background, #2B2B2B);
+                            font-family: "Work Sans 400";
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 140%; /* 22.4px */
+                        }
+                        button{
+                            width: 100%;
+                            border: none;
+                            outline: none;
+                            cursor: pointer;
+                            border-radius: 20px;
+                            background: #A259FF;
+                            padding: 8px;
+                            color: #FFF;
+                            text-align: center;
+                            font-family: "Work Sans 600";
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 140%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

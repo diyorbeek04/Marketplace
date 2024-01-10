@@ -1,0 +1,21 @@
+.mashroom{
+    width: 100%;
+    height: auto;
+    img{
+        width: 100%;
+        height: auto;
+    }
+    .mobile{
+        display: none;
+    }
+    @media only screen and (max-width: 376px){
+        .mobile{
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        .desktop{
+            display: none;
+        }
+    }
+}

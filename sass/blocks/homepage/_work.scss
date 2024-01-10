@@ -1,0 +1,312 @@
+#work{
+    width: 100%;
+    background-color: #2B2B2B;
+    padding: 80px 0;
+    .container{
+        .work{
+            width: 100%;
+            h1{
+                color: #FFF;
+                font-family: "Work Sans 600";
+                font-size: 38px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 120%; 
+                text-transform: capitalize;
+            }
+            p{
+                color: var(--White, #FFF);
+                font-family: "Work Sans 400";
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 160%; /* 35.2px */
+                text-transform: capitalize;
+            }
+            .cards{
+                width: 100%;
+                display: flex;
+                align-items: start;
+                justify-content: space-between;
+                margin: 40px auto;
+                .card{
+                    width: 30%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    gap: 40px;
+                    border-radius: 20px;
+                    background: #3B3B3B;
+                    .card__img{
+                        width: 80%;
+                        height: auto;
+                        margin: 10px auto;
+                        img{
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                    .card__text{
+                        padding: 10px 30px 50px 30px;
+                        h1{
+                            color: #FFF;
+                            text-align: center;
+                            font-family: "Work Sans 600";
+                            font-size: 22px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 140%; /* 30.8px */
+                            text-transform: capitalize;
+                        }
+                        p{
+                            width: 95%;
+                            margin: 0px auto;
+                            color: #FFF;
+                            text-align: center;
+                            font-family: "Work Sans 400";
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 140%; /* 22.4px */
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .container{
+            .work{
+                width: 100%;
+                h1{
+                    color: #FFF;
+                    font-family: "Work Sans 600";
+                    font-size: 38px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 120%; 
+                    text-transform: capitalize;
+                }
+                p{
+                    color: var(--White, #FFF);
+                    font-family: "Work Sans 400";
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 160%; /* 35.2px */
+                    text-transform: capitalize;
+                }
+                .cards{
+                    width: 100%;
+                    display: flex;
+                    align-items: start;
+                    justify-content: space-between;
+                    flex-direction: column;
+                    margin: 40px auto;
+                    gap: 20px;
+                    .card{
+                        width: 90%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: row;
+                        gap: 10px;
+                        border-radius: 20px;
+                        background: #3B3B3B;
+                        margin: 10px auto;
+                        .card__img{
+                            width: 40%;
+                            height: auto;
+                            margin: 0px auto;
+                            img{
+                                width: 100%;
+                                height: auto;
+                            }
+                        }
+                        .card__text{
+                            width: 60%;
+                            h1{
+                                color: #FFF;
+                                text-align: center;
+                                font-family: "Work Sans 600";
+                                font-size: 22px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 140%; /* 30.8px */
+                                text-transform: capitalize;
+                            }
+                            p{
+                                width: 95%;
+                                margin: 0px auto;
+                                color: #FFF;
+                                text-align: center;
+                                font-family: "Work Sans 400";
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 140%; /* 22.4px */
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 474px) {
+        .container{
+            .work{
+                width: 100%;
+                h1{
+                    color: #FFF;
+                    font-family: "Work Sans 600";
+                    font-size: 38px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 120%; 
+                    text-transform: capitalize;
+                }
+                p{
+                    color: var(--White, #FFF);
+                    font-family: "Work Sans 400";
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 160%; /* 35.2px */
+                    text-transform: capitalize;
+                }
+                .cards{
+                    width: 100%;
+                    display: flex;
+                    align-items: start;
+                    justify-content: space-between;
+                    flex-direction: column;
+                    margin: 0px auto;
+                    gap: 20px;
+                    .card{
+                        width: 90%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: row;
+                        gap: 10px;
+                        border-radius: 20px;
+                        background: #3B3B3B;
+                        margin: 10px auto;
+                        .card__img{
+                            width: 40%;
+                            height: auto;
+                            margin: 0px auto;
+                            img{
+                                width: 100%;
+                                height: auto;
+                            }
+                        }
+                        .card__text{
+                            width: 60%;
+                            h1{
+                                color: #FFF;
+                                text-align: center;
+                                font-family: "Work Sans 600";
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 140%; /* 30.8px */
+                                text-transform: capitalize;
+                            }
+                            p{
+                                width: 95%;
+                                margin: 0px auto;
+                                color: #FFF;
+                                text-align: center;
+                                font-family: "Work Sans 400";
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 140%; /* 22.4px */
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 375px) {
+        .container{
+            .work{
+                width: 100%;
+                h1{
+                    color: #FFF;
+                    font-family: "Work Sans 600";
+                    font-size: 38px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 120%; 
+                    text-transform: capitalize;
+                }
+                p{
+                    color: var(--White, #FFF);
+                    font-family: "Work Sans 400";
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 160%; /* 35.2px */
+                    text-transform: capitalize;
+                }
+                .cards{
+                    width: 100%;
+                    display: flex;
+                    align-items: start;
+                    justify-content: space-between;
+                    flex-direction: column;
+                    margin: 0px auto;
+                    gap: 20px;
+                    .card{
+                        width: 90%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        gap: 10px;
+                        border-radius: 20px;
+                        background: #3B3B3B;
+                        margin: 10px;
+                        .card__img{
+                            width: 60%;
+                            height: auto;
+                            margin: 0px auto;
+                            img{
+                                width: 100%;
+                                height: auto;
+                            }
+                        }
+                        .card__text{
+                            width: 100%;
+                            h1{
+                                color: #FFF;
+                                text-align: center;
+                                font-family: "Work Sans 600";
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 140%; /* 30.8px */
+                                text-transform: capitalize;
+                            }
+                            p{
+                                width: 95%;
+                                margin: 0px auto;
+                                color: #FFF;
+                                text-align: center;
+                                font-family: "Work Sans 400";
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 140%; /* 22.4px */
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+// Work Sans 600
+@font-face {
+    font-family: "Work Sans 600";
+    src: local(),
+    url("../fonts/Work_Sans/static/WorkSans-SemiBold.ttf") format("woff");
+}
+
+// Work Sans 400
+@font-face {
+    font-family: "Work Sans 400";
+    src: local(),
+    url("../fonts/Work_Sans/static/WorkSans-Regular.ttf") format("woff");
+}
+
+// Space Mono 700
+@font-face {
+    font-family: "Space Mono 700";
+    src: local(),
+    url("../fonts/Space_Mono/SpaceMono-Bold.ttf") format("woff");
+}
+
+// Space Mono 400
+@font-face {
+    font-family: "Space Mono 400";
+    src: local(),
+    url("../fonts/Space_Mono/SpaceMono-Regular.ttf") format("woff");
+}

@@ -1,0 +1,422 @@
+#NFTs{
+    width: 100%;
+    background-color: #2B2B2B;
+    padding: 80px 0px;
+    .container{
+        .NFTs{
+            width: 100%;
+            .NFTs__head{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .text__group{
+                    h1{
+                        color: #FFF;
+                        font-family: "Work Sans 600";
+                        font-size: 38px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 120%; /* 45.6px */
+                        text-transform: capitalize;
+                    }     
+                    p{
+                        color: #FFF;
+                        font-family: "Work Sans 400";
+                        font-size: 22px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 160%; /* 35.2px */
+                        text-transform: capitalize;
+                    }               
+                }
+                button{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 5px;
+                    padding: 15px 50px;
+                    border-radius: 20px;
+                    border: 2px solid #A259FF;
+                    background-color: #2B2B2B;
+                    color: #FFF;
+                    text-align: center;
+                    font-family: "Work Sans 600";
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 140%; /* 22.4px */
+                }
+            }
+            .NFTs__body{
+                .cards{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    
+                    .card{
+                        width: 30%;
+                        border-radius: 20px;
+                        background-color: #3B3B3B;
+                        .card__img{
+                            width: 100%;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        .card__text{
+                            width: 100%;
+                            display: flex;
+                            padding: 20px 30px 25px 30px;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            gap: 25px;
+                            align-self: stretch;
+                            h1{
+                                color: #FFF;
+                                font-family: "Work Sans 600";
+                                font-size: 22px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 140%; /* 30.8px */
+                                text-transform: capitalize;
+                            }
+                            p{
+                                display: flex;
+                                align-items: center;
+                                gap: 5px;
+                                color: #FFF;
+                                font-family: "Space Mono 400";
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 140%; 
+                            }
+                            .boxs{
+                                width: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                .box{
+                                    width: 50%;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: start;
+                                    flex-direction: column;
+                                    h1{
+                                        color: #858584;
+                                        font-family: "Space Mono 400";
+                                        font-size: 12px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: 110%; 
+                                    }
+                                    p{
+                                        color: #FFF;
+                                        font-family: "Space Mono 400";
+                                        font-size: 16px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: 140%; 
+                                    }
+                                }
+                                .first{
+                                    align-items: start;
+                                }
+                                .second{
+                                    align-items: end;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            button{
+                display: none;
+            }
+        }
+    }
+    @media only screen and (max-width: 992px) {
+        .container{
+            .NFTs{
+                width: 100%;
+                .NFTs__head{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .text__group{
+                        h1{
+                            color: #FFF;
+                            font-family: "Work Sans 600";
+                            font-size: 38px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 120%; /* 45.6px */
+                            text-transform: capitalize;
+                        }     
+                        p{
+                            color: #FFF;
+                            font-family: "Work Sans 400";
+                            font-size: 22px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 160%; /* 35.2px */
+                            text-transform: capitalize;
+                        }               
+                    }
+                    button{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 5px;
+                        padding: 15px 50px;
+                        border-radius: 20px;
+                        border: 2px solid #A259FF;
+                        background-color: #2B2B2B;
+                        color: #FFF;
+                        text-align: center;
+                        font-family: "Work Sans 600";
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 140%; /* 22.4px */
+                    }
+                }
+                .NFTs__body{
+                    .cards{
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        
+                        .card{
+                            width: 45%;
+                            border-radius: 20px;
+                            background-color: #3B3B3B;
+                            .card__img{
+                                width: 100%;
+                                img{
+                                    width: 100%;
+                                }
+                            }
+                            .card__text{
+                                width: 100%;
+                                display: flex;
+                                padding: 20px 30px 25px 30px;
+                                flex-direction: column;
+                                align-items: flex-start;
+                                gap: 25px;
+                                align-self: stretch;
+                                h1{
+                                    color: #FFF;
+                                    font-family: "Work Sans 600";
+                                    font-size: 22px;
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    line-height: 140%; /* 30.8px */
+                                    text-transform: capitalize;
+                                }
+                                p{
+                                    display: flex;
+                                    align-items: center;
+                                    gap: 5px;
+                                    color: #FFF;
+                                    font-family: "Space Mono 400";
+                                    font-size: 16px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 140%; 
+                                }
+                                .boxs{
+                                    width: 100%;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    .box{
+                                        width: 50%;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: start;
+                                        flex-direction: column;
+                                        h1{
+                                            color: #858584;
+                                            font-family: "Space Mono 400";
+                                            font-size: 12px;
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            line-height: 110%; 
+                                        }
+                                        p{
+                                            color: #FFF;
+                                            font-family: "Space Mono 400";
+                                            font-size: 16px;
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            line-height: 140%; 
+                                        }
+                                    }
+                                    .first{
+                                        align-items: start;
+                                    }
+                                    .second{
+                                        align-items: end;
+                                    }
+                                }
+                            }
+                        }
+                        .third{
+                            display: none;
+                        }
+                    }
+                }
+                button{
+                    display: none;
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 576px) {
+        .container{
+            .NFTs{
+                width: 100%;
+                .NFTs__head{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .text__group{
+                        h1{
+                            color: #FFF;
+                            font-family: "Work Sans 600";
+                            font-size: 38px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 120%; /* 45.6px */
+                            text-transform: capitalize;
+                        }     
+                        p{
+                            color: #FFF;
+                            font-family: "Work Sans 400";
+                            font-size: 22px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 160%; /* 35.2px */
+                            text-transform: capitalize;
+                        }               
+                    }
+                    button{
+                        display: none;
+                    }
+                }
+                .NFTs__body{
+                    .cards{
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        gap: 20px;
+                        .card{
+                            width: 90%;
+                            border-radius: 20px;
+                            background-color: #3B3B3B;
+                            .card__img{
+                                width: 100%;
+                                img{
+                                    width: 100%;
+                                }
+                            }
+                            .card__text{
+                                width: 100%;
+                                display: flex;
+                                padding: 20px 30px 25px 30px;
+                                flex-direction: column;
+                                align-items: flex-start;
+                                gap: 25px;
+                                align-self: stretch;
+                                h1{
+                                    color: #FFF;
+                                    font-family: "Work Sans 600";
+                                    font-size: 22px;
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    line-height: 140%; /* 30.8px */
+                                    text-transform: capitalize;
+                                }
+                                p{
+                                    display: flex;
+                                    align-items: center;
+                                    gap: 5px;
+                                    color: #FFF;
+                                    font-family: "Space Mono 400";
+                                    font-size: 16px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 140%; 
+                                }
+                                .boxs{
+                                    width: 100%;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    .box{
+                                        width: 50%;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: start;
+                                        flex-direction: column;
+                                        h1{
+                                            color: #858584;
+                                            font-family: "Space Mono 400";
+                                            font-size: 12px;
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            line-height: 110%; 
+                                        }
+                                        p{
+                                            color: #FFF;
+                                            font-family: "Space Mono 400";
+                                            font-size: 16px;
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            line-height: 140%; 
+                                        }
+                                    }
+                                    .first{
+                                        align-items: start;
+                                    }
+                                    .second{
+                                        align-items: end;
+                                    }
+                                }
+                            }
+                        }
+                        .third{
+                            display: block;
+                        }
+                    }
+                }
+                button{
+                    display: block;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 5px;
+                    padding: 15px 50px;
+                    border-radius: 20px;
+                    border: 2px solid #A259FF;
+                    background-color: #2B2B2B;
+                    color: #FFF;
+                    text-align: center;
+                    font-family: "Work Sans 600";
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 140%; /* 22.4px */
+                }
+            }
+        }
+    }
+}
